@@ -8,7 +8,7 @@ init()
 # for store in x:
 #     print(store['storeID'], store['storeName'])
 
-# You can change the storeID, Price, and Sort by name
+# You can change the storeID, Price, and Sort by name ..
 url = requests.get(
     'https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15')
 
